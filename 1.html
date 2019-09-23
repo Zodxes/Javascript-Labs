@@ -1,4 +1,11 @@
 <script>
-   x = +prompt('x');
-   alert(Math.sqrt(x));
+   m = +prompt('month');
+   d = +prompt('day');
+   if (m + d < 11)
+      alert('маловато')
+       else if (m + d < 21)
+        alert('всё ещё маловато')
+         else if (m + d > 20)
+          alert('терпимо')
+           else alert('сойдёт')
 </script>
